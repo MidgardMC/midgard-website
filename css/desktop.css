@@ -1,0 +1,116 @@
+body {
+    background-color: #373743;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.centered {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.background {
+    z-index: -99;
+    background-image: url("../images/home.png");
+    width: 100% !important;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px -350px;
+}
+
+nav {
+    width: 100%
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+    margin-top: 50px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    width: 100%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background: transparent;
+    color: #5e5e5e;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    border-bottom: 1px solid #261818;
+}
+
+.navbar-right {
+    margin-right: -30px;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #5e5e5e;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.jumbotron {
+    background-image: url("../images/jumbotron.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+#iframealert {
+    display: none;
+}
+
+.col-md-4 {
+    padding-top: 20px;
+}
+
+.footer {
+    bottom: 0;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    width: 100%;
+    font-size: 10px;
+    margin-top: 100px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.footer > .container-fluid > a {
+    color: #8c8c8c;
+}
+
+.footer > .container-fluid > a:hover {
+    color: #5e5e5e;
+    text-decoration: none;
+}
+
+.footer > .container-fluid {
+    padding-left: 0;
+}
