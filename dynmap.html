@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- A website designed by Pixel Isle 2016-->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Midgard - DynMap</title>
+    <title>Midgard</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- Custom CSS -->
     <link href="css/desktop.css" rel="stylesheet">
     <link media="(max-width: 920px)" href="css/tablet.css" rel="stylesheet">
     <link media="(max-width: 500px)" href="css/mobile.css" rel="stylesheet">
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,700,500,100'>
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400,500,300,700' rel='stylesheet'
+          type='text/css'>
     <style>
         html, body {
             width: 100%;
         }
+
         iframe {
             border: none;
             width: 100%;
@@ -51,14 +56,19 @@
 </nav>
 <div class="container-fluid">
     <p id="iframealert">Due to limitations with mobile please open DynMap in its own tab for an optimal experience.</p>
-    <a class="btn btn-default btn-xs" target="_blank" href="http://mc.midgardmc.com:8123" role="button">Open in new tab.</a>
+    <a class="btn btn-default btn-xs" target="_blank" href="http://mc.midgardmc.com:8123" role="button">Open in new
+        tab.</a>
     <iframe src="http://mc.midgardmc.com:8123"></iframe>
 </div>
 <footer class="footer">
     <div class="container-fluid">
-        <p>Server: mc.midgardmc.com</p>
-        <a href="https://www.twitter.com/midgardmc">Twitter</a><br>
-        <a href="mumble://mc.midgardmc.com?title=Root&version=1.2.0">Mumble</a>
+
+        <ul class="nav nav-pills">
+            <li role="presentation"><a href="https://twitter.com/intent/follow?&screen_name=midgardmc">Twitter</a>
+            </li>
+            <li role="presentation"><a href="mumble://mc.midgardmc.com?title=Root&version=1.2.0">Mumble</a></li>
+            <li role="presentation"><a href="https://discord.gg/0pYONBCFqQVPMnIF">Discord</a></li>
+        </ul>
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
