@@ -91,6 +91,10 @@ h1 {
     padding-top: 20px;
 }
 
+.list-group, .panel-body {
+    color: black;
+}
+
 .footer {
     bottom: 0;
     /* Set the fixed height of the footer here */
@@ -113,4 +117,17 @@ h1 {
 
 .footer > .container-fluid {
     padding-left: 0;
+}
+
+#top-link-block.affix-top {
+    position: absolute;
+    left: 10px;
+}
+#top-link-block.affix {
+    position: fixed;
+    bottom: 18px;
+    left: 10px;
+}
+#top-link-block > a {
+    color: black;
 }
