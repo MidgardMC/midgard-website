@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'kollektif';
-    src: url('/fonts/kollektif-webfont.eot');
-    src: url('/fonts/kollektif-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/kollektif-webfont.woff2') format('woff2'),
-    url('/fonts/kollektif-webfont.woff') format('woff'),
-    url('/fonts/kollektif-webfont.ttf') format('truetype'),
-    url('/fonts/kollektif-webfont.svg#kollektifregular') format('svg');
+    src: url('fonts/kollektif-webfont.eot');
+    src: url('fonts/kollektif-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/kollektif-webfont.woff2') format('woff2'),
+    url('fonts/kollektif-webfont.woff') format('woff'),
+    url('fonts/kollektif-webfont.ttf') format('truetype'),
+    url('fonts/kollektif-webfont.svg#kollektifregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'norwester';
-    src: url('/fonts/norwester.eot');
-    src: url('/fonts/norwester?#iefix') format('embedded-opentype'),
-    url('/fonts/norwester.woff2') format('woff2'),
-    url('/fonts/norwester.woff') format('woff'),
-    url('/fonts/norwester.ttf') format('truetype'),
-    url('/fonts/norwester.svg') format('svg');
+    src: url('fonts/norwester.eot');
+    src: url('fonts/norwester?#iefix') format('embedded-opentype'),
+    url('fonts/norwester.woff2') format('woff2'),
+    url('fonts/norwester.woff') format('woff'),
+    url('fonts/norwester.ttf') format('truetype'),
+    url('fonts/norwester.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 
