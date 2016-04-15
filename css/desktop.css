@@ -29,25 +29,25 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.centered {
-    margin: 0 auto;
-    width: 800px;
-}
-
 .background {
     z-index: -99;
     background-image: url("../images/home.png");
     width: 100% !important;
-    height: 200px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -300px;
+    position: absolute;
 }
 
 nav {
     width: 100%
 }
 
+.navbar.navbar-default {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 800px;
+}
 a {
     color: white;
 }
@@ -109,7 +109,14 @@ h1, h2, h3 {
     background-position: center;
     height: 400px;
 }
-
+.jumbotron-custom {
+    display: none;
+}
+.custom-container-fluid {
+    margin: 0 auto;
+    margin-top: 400px;
+    width: 800px;
+}
 #iframealert {
     display: none;
 }
@@ -121,7 +128,9 @@ h1, h2, h3 {
 .list-group, .panel-body {
     color: black;
 }
-
+.rulestoc {
+    width: 300px;
+}
 .footer {
     bottom: 0;
     /* Set the fixed height of the footer here */
@@ -149,13 +158,13 @@ h1, h2, h3 {
 
 #top-link-block.affix-top {
     position: absolute;
-    left: 10px;
+    right: 10px;
 }
 
 #top-link-block.affix {
     position: fixed;
     bottom: 18px;
-    left: 10px;
+    right: 10px;
 }
 
 #top-link-block > a {

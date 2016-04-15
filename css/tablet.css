@@ -3,18 +3,25 @@ body {
     width: auto;
 }
 
-.centered {
+.custom-container-fluid {
     width: auto !important;
+    margin-top: auto !important;
 }
 
 .navbar {
     padding-bottom: 20px;
 }
-
+.navbar.navbar-default{
+    padding-top: auto !important;
+    margin: auto !important;
+    width: auto !important;
+}
 iframe {
     display: none;
 }
-
+.jumbotron-custom {
+    display: inherit;
+}
 #iframealert {
     display: inherit;
 }
@@ -48,4 +55,8 @@ iframe {
 
 #top-link-block > a {
     color: black;
+}
+
+.background-rules, .background-about{
+    display: none;
 }

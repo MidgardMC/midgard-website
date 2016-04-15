@@ -12,13 +12,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/desktop.css" rel="stylesheet">
+    <link href="css/desktop-subpages.css" rel="stylesheet">
     <link media="(max-width: 920px)" href="css/tablet.css" rel="stylesheet">
     <link media="(max-width: 500px)" href="css/mobile.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div class="centered">
+<div class="background-rules"></div>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -42,33 +43,10 @@
             </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid custom-container-fluid">
         <h1>Rules</h1>
         <p>When playing and communicating on Midgard you agree to the Rules and Guidelines addressed below.</p>
-        <div class="panel panel-default">
-            <!-- Default panel contents -->
-            <div class="panel-heading">Table of Contents</div>
-
-            <!-- List group -->
-            <div class="list-group">
-                <a href="#communityconduct" class="list-group-item">Community Conduct</a>
-                <a href="#streaming" class="list-group-item">Streaming</a>
-                <a href="#worlds" class="list-group-item">Worlds</a>
-                <a href="#griefing" class="list-group-item">Griefing</a>
-                <a href="#protection" class="list-group-item">Protection</a>
-                <a href="#mining" class="list-group-item">Mining</a>
-                <a href="#building" class="list-group-item">Building</a>
-                <a href="#farms" class="list-group-item">Farms</a>
-                <a href="#bans" class="list-group-item">Bans</a>
-                <a href="#approvedmods" class="list-group-item">Approved Client Mods and Forbidden Cheats</a>
-                <a href="#dot" class="list-group-item">Department of Transportation</a>
-                <a href="#playeragree" class="list-group-item">Player Agreement</a>
-                <a href="#mumble" class="list-group-item">Mumble</a>
-                <a href="#donations" class="list-group-item">Donations</a>
-                <a href="#access" class="list-group-item">Access</a>
-                <a href="#tf2" class="list-group-item">Team Fortress 2</a>
-            </div>
-        </div>
+        <a class="btn btn-default" href="#table-of-contents" role="button">Table of Contents</a>
         <section id="communityconduct">
             <h2>COMMUNITY CONDUCT</h2>
             <p>Our server language is English. All public chat, including in game and on Mumble are English only.</p>
@@ -279,7 +257,32 @@
             </p>
         </section>
         <p>Rules lasted updated on: 28 March 2016</p>
+        <div class="panel panel-default rulestoc">
+            <!-- Default panel contents -->
+            <div class="panel-heading" id="table-of-contents">Table of Contents</div>
+
+            <!-- List group -->
+            <div class="list-group">
+                <a href="#communityconduct" class="list-group-item">Community Conduct</a>
+                <a href="#streaming" class="list-group-item">Streaming</a>
+                <a href="#worlds" class="list-group-item">Worlds</a>
+                <a href="#griefing" class="list-group-item">Griefing</a>
+                <a href="#protection" class="list-group-item">Protection</a>
+                <a href="#mining" class="list-group-item">Mining</a>
+                <a href="#building" class="list-group-item">Building</a>
+                <a href="#farms" class="list-group-item">Farms</a>
+                <a href="#bans" class="list-group-item">Bans</a>
+                <a href="#approvedmods" class="list-group-item">Approved Client Mods and Forbidden Cheats</a>
+                <a href="#dot" class="list-group-item">Department of Transportation</a>
+                <a href="#playeragree" class="list-group-item">Player Agreement</a>
+                <a href="#mumble" class="list-group-item">Mumble</a>
+                <a href="#donations" class="list-group-item">Donations</a>
+                <a href="#access" class="list-group-item">Access</a>
+                <a href="#tf2" class="list-group-item">Team Fortress 2</a>
+            </div>
+        </div>
     </div>
+
     <footer class="footer">
         <div class="container-fluid">
 
@@ -295,7 +298,8 @@
     <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
         <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
     </a>
-</span><!-- /top-link-block -->
+</span>
+    <!-- /top-link-block -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>if (($(window).height() + 100) < $(document).height()) {
@@ -304,6 +308,5 @@
             offset: {top: 100}
         });
     }</script>
-</div>
 </body>
 </html>
