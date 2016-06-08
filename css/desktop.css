@@ -155,7 +155,9 @@ h1, h2, h3 {
 .footer > .container-fluid {
     padding-left: 0;
 }
-
+.footer > .custom-container-fluid {
+    margin-top: auto;
+}
 #top-link-block.affix-top {
     position: absolute;
     right: 10px;

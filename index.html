@@ -16,11 +16,18 @@
     <link media="(max-width: 500px)" href="css/mobile.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
 <body>
 <div class="background"></div>
+
 <div class="centered">
     <nav class="navbar navbar-default">
+        <div class="alert alert-warning centered" role="alert"
+             style="font-family: Helvetica, Arial, sans-serif;margin-bottom: 10px;margin-top: 20px;letter-spacing: 0px;text-transform: none;"><span
+                class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <strong>Alert!</strong> Getting an error connecting to the server? Downgrade to 1.9.4 in the launcher until the server is updated to 1.10
+        </div>
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -44,10 +51,7 @@
         </div><!--/.container-fluid -->
     </nav>
     <!-- Alert Box. If commented out disregard message.-->
-   <!-- <div class="alert alert-warning centered" role="alert"
-         style="font-family: Helvetica, Arial, sans-serif;margin-bottom: 10px;margin-top: 20px;"><span
-            class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <strong>Alert!</strong> Trying to connect with a 1.9.1 or 1.9.2 profile? Please use a 1.9 profile until the server updates.
-    </div> -->
+
     <!--<div class="alert alert-danger centered" role="alert"
          style="font-family: Helvetica, Arial, sans-serif;margin-bottom: 10px;margin-top: 20px;"><span
             class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <strong>Alert!</strong> Midgard will be
@@ -62,12 +66,11 @@
             playing changes only additions to vanilla game play.</p>
     </div>
     <footer class="footer">
-        <div class="container-fluid">
+        <div class="container-fluid custom-container-fluid">
 
             <ul class="nav nav-pills">
-                <li role="presentation"><a href="https://twitter.com/intent/follow?&screen_name=midgardmc">Twitter</a>
+                <li role="presentation"><a href="https://twitter.com/intent/follow?&screen_name=midgardmc"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
                 </li>
-                <li role="presentation"><a href="mumble://mc.midgardmc.com?title=Root&version=1.2.0">Mumble</a></li>
             </ul>
         </div>
     </footer>
