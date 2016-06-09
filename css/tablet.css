@@ -1,8 +1,20 @@
 body {
     margin-top: 50px;
     width: auto;
+    color: #000000;
 }
 
+.navbar {
+    color: #000000;
+}
+
+.navbar-default .navbar-brand {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+}
 .custom-container-fluid {
     width: auto !important;
     margin-top: auto !important;
@@ -11,17 +23,21 @@ body {
 .navbar {
     padding-bottom: 20px;
 }
-.navbar.navbar-default{
+
+.navbar.navbar-default {
     padding-top: auto !important;
     margin: auto !important;
     width: auto !important;
 }
+
 iframe {
     display: none;
 }
+
 .jumbotron-custom {
     display: inherit;
 }
+
 #iframealert {
     display: inherit;
 }
@@ -38,10 +54,11 @@ iframe {
     margin-bottom: 20px;
 }
 
-#top-link-block{
+#top-link-block {
     padding-left: 70%;
-    padding-bottom: 3% ;
+    padding-bottom: 3%;
 }
+
 #top-link-block.affix-top {
     position: absolute;
     left: 10px;
@@ -57,6 +74,6 @@ iframe {
     color: black;
 }
 
-.background-rules, .background-about{
+.background-rules, .background-about {
     display: none;
 }
