@@ -1,5 +1,5 @@
 body {
-    margin-top: 50px;
+    margin-top: 20px;
     width: auto;
     color: #000000;
 }
@@ -19,7 +19,9 @@ body {
     width: auto !important;
     margin-top: auto !important;
 }
-
+.custom-container-fluid-section {
+    width: auto !important;
+}
 .navbar {
     padding-bottom: 20px;
 }
@@ -28,8 +30,11 @@ body {
     padding-top: auto !important;
     margin: auto !important;
     width: auto !important;
+    padding-top: 0px !important;
 }
-
+.row {
+    text-align: center;
+}
 iframe {
     display: none;
 }
