@@ -36,10 +36,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <!--<li><a href="./">Forums<span class="sr-only">(current)</span></a></li>-->
-                <li><a href="http://mc.midgardmc.com:8123/">DynMap</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./rules.html">Rules</a></li>
+                <!--<li><a href="./">Forums</a></li>-->
+                <li><a href="http://mc.midgardmc.com:8123/">DynMap</a></li>
                 <li>
                     <button class="btn navbar hideonmobile"
                             style="background: none; margin-top: 0px !important; padding-bottom: 0px !important; padding-top: 0px !important;"
@@ -58,7 +58,7 @@
     <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseExample"
             aria-expanded="false" aria-controls="collapseExample">
         Table of Contents
-    </button>
+    </button> <a class="btn btn-default" href="downloads/revision_28_march_2016/Midgard_Rules-28-March-2016.pdf" role="button">Download PDF</a>
     <div class="collapse" id="collapseExample" style="padding-top: 2em;">
         <div class="panel panel-default rulestoc">
             <!-- Default panel contents -->
@@ -339,5 +339,14 @@
             offset: {top: 100}
         });
     }</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        new Clipboard('.btn');
+    </script>
 </body>
 </html>
