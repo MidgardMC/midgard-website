@@ -192,3 +192,7 @@ h1, h2, h3 {
 #top-link-block > a {
     color: black;
 }
+
+.showonmobile{
+    display: none;
+}

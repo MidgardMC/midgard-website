@@ -82,3 +82,11 @@ iframe {
 .background-rules, .background-about {
     display: none;
 }
+
+.hideonmobile {
+    display: none;
+}
+
+.showonmobile{
+    display: inherit !important;
+}
