@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f0895f-f15a-45aa-9fd0-4568c1283d16" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/1280px-Minecraft_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.47.01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.47.40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.48.55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.49.21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.49.43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.50.07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.50.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.50.21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.50.50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.51.29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.52.18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.52.39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.51.20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.53.00.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.53.26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.55.29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.55.30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.55.48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.59.01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.59.31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.59.38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.02.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.02.25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.03.31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.03.43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.04.14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.04.34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.05.39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.05.49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/connectbackground.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/jumbotron.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/midgard-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/showcase1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/showcase2.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/desktop-subpages.css" afterPath="$PROJECT_DIR$/css/desktop-subpages.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/desktop.css" afterPath="$PROJECT_DIR$/css/desktop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="midgardwebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="120" column="13" selection-start-line="91" selection-start-column="0" selection-end-line="120" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.43454936">
+              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -105,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7113734">
+            <state vertical-scroll-proportion="-25.5">
               <caret line="87" column="70" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -123,8 +78,8 @@
       <file leaf-file-name="desktop.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/desktop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="112" column="53" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -184,11 +139,11 @@
         <option value="$PROJECT_DIR$/css/mobile.css" />
         <option value="$PROJECT_DIR$/connect.html" />
         <option value="$PROJECT_DIR$/css/tablet.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/rules.html" />
-        <option value="$PROJECT_DIR$/css/desktop.css" />
         <option value="$PROJECT_DIR$/css/desktop-subpages.css" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/desktop.css" />
       </list>
     </option>
   </component>
@@ -833,33 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="120" column="13" selection-start-line="91" selection-start-column="0" selection-end-line="120" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/desktop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/desktop-subpages.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923">
@@ -883,13 +811,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7113734">
+        <state vertical-scroll-proportion="-25.5">
           <caret line="87" column="70" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/desktop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="112" column="53" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43454936">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

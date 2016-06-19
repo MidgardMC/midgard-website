@@ -31,7 +31,7 @@ body {
 
 .background {
     z-index: -99;
-    background-image: url("../images/home.png");
+    background-image: url("../images/homepage_images/home.png");
     width: 100% !important;
     height: 500px;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body {
     position: absolute;
 }
 .presimages {
-    background-image: url("../images/home.png");
+    background-image: url("../images/homepage_images/home.png");
     width: 100% !important;
     height: 500px;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ h1, h2, h3 {
 }
 
 .jumbotron {
-    background-image: url("../images/home.png");
+    background-image: url("../images/homepage_images/home.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
