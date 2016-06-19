@@ -2,10 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f0895f-f15a-45aa-9fd0-4568c1283d16" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/1280px-Minecraft_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.47.01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.47.40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.48.55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.49.21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.49.43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.50.07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.50.11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.50.21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.50.50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.51.29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.52.18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-04-14_18.52.39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.51.20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.53.00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.53.26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.55.29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.55.30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.55.48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.59.01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.59.31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_12.59.38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.02.09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.02.25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.03.31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.03.43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.04.14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.04.34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.05.39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2016-06-09_13.05.49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/alt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/connectbackground.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/jumbotron.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/midgard-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/screenshot5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/showcase1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/showcase2.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules.html" afterPath="$PROJECT_DIR$/rules.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/desktop-subpages.css" afterPath="$PROJECT_DIR$/css/desktop-subpages.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/desktop.css" afterPath="$PROJECT_DIR$/css/desktop.css" />
     </list>
     <ignored path="midgardwebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +72,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.192308">
+            <state vertical-scroll-proportion="0.0">
               <caret line="120" column="13" selection-start-line="91" selection-start-column="0" selection-end-line="120" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -47,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rules.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rules.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rules.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.7746634">
-              <caret line="303" column="7" selection-start-line="299" selection-start-column="0" selection-end-line="303" selection-end-column="7" />
+            <state vertical-scroll-proportion="-24.846153">
+              <caret line="296" column="51" selection-start-line="299" selection-start-column="0" selection-end-line="303" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.846153">
-              <caret line="174" column="9" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.7113734">
+              <caret line="87" column="70" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,8 +123,8 @@
       <file leaf-file-name="desktop.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/desktop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="197" selection-end-column="1" />
+            <state vertical-scroll-proportion="-19.615385">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,8 +133,8 @@
       <file leaf-file-name="desktop-subpages.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/desktop-subpages.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -138,14 +181,14 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/dynmap.html" />
         <option value="$PROJECT_DIR$/apply.html" />
-        <option value="$PROJECT_DIR$/css/desktop-subpages.css" />
         <option value="$PROJECT_DIR$/css/mobile.css" />
         <option value="$PROJECT_DIR$/connect.html" />
-        <option value="$PROJECT_DIR$/css/desktop.css" />
         <option value="$PROJECT_DIR$/css/tablet.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/rules.html" />
+        <option value="$PROJECT_DIR$/css/desktop.css" />
+        <option value="$PROJECT_DIR$/css/desktop-subpages.css" />
+        <option value="$PROJECT_DIR$/about.html" />
       </list>
     </option>
   </component>
@@ -155,10 +198,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -219,8 +262,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,10 +363,10 @@
     <option name="totallyTimeSpent" value="10179000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -767,21 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/2016-04-14_18.47.40.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/2016-04-14_18.48.55.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/2016-04-14_18.47.01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/clipboard.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -789,26 +817,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/desktop-subpages.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/desktop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="197" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -823,7 +835,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.192308">
+        <state vertical-scroll-proportion="0.0">
           <caret line="120" column="13" selection-start-line="91" selection-start-column="0" selection-end-line="120" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -840,28 +852,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/css/desktop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.846153">
-          <caret line="174" column="9" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-19.615385">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/desktop-subpages.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rules.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.7746634">
-          <caret line="303" column="7" selection-start-line="299" selection-start-column="0" selection-end-line="303" selection-end-column="7" />
+        <state vertical-scroll-proportion="-24.846153">
+          <caret line="296" column="51" selection-start-line="299" selection-start-column="0" selection-end-line="303" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7113734">
+          <caret line="87" column="70" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

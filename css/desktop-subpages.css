@@ -1,6 +1,6 @@
 .background-about {
     z-index: -99;
-    background-image: url("../images/2016-04-14_18.47.40.png");
+    background-image: url("../images/header_images/header1.png");
     width: 100% !important;
     height: 300px;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 
 .background-rules {
     z-index: -99;
-    background-image: url("../images/2016-04-14_18.50.11.png");
+    background-image: url("../images/header_images/header2.png");
     width: 100% !important;
     height: 300px;
     background-repeat: no-repeat;
