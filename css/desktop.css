@@ -31,14 +31,27 @@ body {
 
 .background {
     z-index: -99;
-    background-image: url("../images/homepage_images/home.png");
+    background-image: url("../images/homepage_images/featured_players_quotes/geopmel-july2016.png");
     width: 100% !important;
-    height: 500px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 20%;
+    background-position: center 10%;
     position: absolute;
 }
+
+.background-gradient {
+    z-index: -98;
+    width: 100% !important;
+    height: 300px;
+    position: absolute;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+73&0.8+0,0.1+59,0+73 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 59%, rgba(0,0,0,0) 73%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.1) 59%,rgba(0,0,0,0) 73%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.1) 59%,rgba(0,0,0,0) 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
 .presimages {
     background-image: url("../images/homepage_images/home.png");
     width: 100% !important;
@@ -129,6 +142,7 @@ h1, h2, h3 {
     margin: 0 auto;
     margin-top: 400px;
     width: 800px;
+    position: relative;
 }
 
 .custom-container-fluid-section {
@@ -196,4 +210,20 @@ h1, h2, h3 {
 
 .showonmobile{
     display: none;
+}
+.quote-box {
+    margin-top: -50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+}
+.quote {
+    letter-spacing: 1px;
+    color: white;
+    padding: 10px;
+}
+
+.quote > h3 {
+    letter-spacing: 1px;
+    text-transform: none;
+    font-size: 1.4em;
 }

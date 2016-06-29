@@ -1,23 +1,32 @@
-.background-about {
+.background-subpages{
     z-index: -99;
-    background-image: url("../images/header_images/header1.png");
     width: 100% !important;
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    background-position: 0px -200px;
+    background-position: center;
+}
+.background-gradient-subpages {
+    z-index: -98;
+    width: 100% !important;
+    height: 300px;
+    position: absolute;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+73&0.8+0,0.1+59,0+73 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 59%, rgba(0,0,0,0) 73%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.1) 59%,rgba(0,0,0,0) 73%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.1) 59%,rgba(0,0,0,0) 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.background-about {
+    background-image: url("../images/header_images/header1.png");
 }
 
 .background-rules {
-    z-index: -99;
     background-image: url("../images/header_images/header2.png");
-    width: 100% !important;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    background-position: 0px -200px;
+}
+.background-events {
+    background-image: url("../images/header_images/header2.png");
 }
 .custom-container-fluid {
     margin: 0 auto;

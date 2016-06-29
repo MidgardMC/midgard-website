@@ -1,23 +1,19 @@
 body {
-    margin-top: 20px;
     width: auto;
-    color: #000000;
 }
 
-.navbar {
-    color: #000000;
-}
 
 .navbar-default .navbar-brand {
-    color: #000000;
+
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #000000;
+
 }
 .custom-container-fluid {
     width: auto !important;
-    margin-top: auto !important;
+    margin-top: 400px !important;
+    margin-bottom: 20px;
 }
 .custom-container-fluid-section {
     width: auto !important;
@@ -27,10 +23,9 @@ body {
 }
 
 .navbar.navbar-default {
-    padding-top: auto !important;
+    padding-top: 20px !important;
     margin: auto !important;
     width: auto !important;
-    padding-top: 0px !important;
 }
 .row {
     text-align: center;
@@ -51,8 +46,8 @@ iframe {
     margin-right: 0;
 }
 
-.background {
-    display: none;
+.background, .background-gradient {
+    width: 100% !important;
 }
 
 .nav {
@@ -76,7 +71,6 @@ iframe {
 }
 
 #top-link-block > a {
-    color: black;
 }
 
 .background-rules, .background-about {
