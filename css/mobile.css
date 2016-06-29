@@ -14,3 +14,7 @@ body {
 .footer {
     font-size: 16px;
 }
+
+.background-subpages {
+    display: none;
+}

@@ -73,9 +73,6 @@ iframe {
 #top-link-block > a {
 }
 
-.background-rules, .background-about {
-    display: none;
-}
 
 .hideonmobile {
     display: none;
