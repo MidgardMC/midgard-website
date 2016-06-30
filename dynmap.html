@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- A website designed by Pixel Isle 2016-->
-
+    <!-- A website designed by @spinnibbler-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Midgard</title>
+    <meta name="description" content="We build nice things!">
+    <meta name="author" content="Midgard">
+    <title>Midgard - We build nice things!</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -15,62 +14,60 @@
     <link media="(max-width: 920px)" href="css/tablet.css" rel="stylesheet">
     <link media="(max-width: 500px)" href="css/mobile.css" rel="stylesheet">
     <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400,500,300,700' rel='stylesheet'
-          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
     <style>
         html, body {
             width: 100%;
+            margin: 0;
         }
 
         iframe {
             border: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
             width: 100%;
-            height: 1000px;
-            margin-bottom: -45px;
-            margin-top: 10px;
-        }</style>
+            height: 100%;
+        }
+        .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Midgard</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="./">Forums<span class="sr-only">(current)</span></a></li>
-                <li><a href="http://mc.midgardmc.com:8123/">DynMap</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./rules.html">Rules</a></li>
-                <li><a href="./apply.html">Apply</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
-    </div><!--/.container-fluid -->
-</nav>
+<iframe src="http://mc.midgardmc.com:8123"></iframe>
+</div>
+<div class="centered">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Midgard</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="btn btn-default btn-xs" style="color: #5e5e5e;" target="_blank" href="http://mc.midgardmc.com:8123" role="button">Open in new
+                        tab</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+</div>
 <div class="container-fluid">
     <p id="iframealert">Due to limitations with mobile please open DynMap in its own tab for an optimal experience.</p>
     <a class="btn btn-default btn-xs" target="_blank" href="http://mc.midgardmc.com:8123" role="button">Open in new
         tab.</a>
-    <iframe src="http://mc.midgardmc.com:8123"></iframe>
 </div>
-<footer class="footer">
-    <div class="container-fluid">
-
-        <ul class="nav nav-pills">
-            <li role="presentation"><a href="https://twitter.com/intent/follow?&screen_name=midgardmc">Twitter</a>
-            </li>
-            <li role="presentation"><a href="mumble://mc.midgardmc.com?title=Root&version=1.2.0">Mumble</a></li>
-            <li role="presentation"><a href="https://discord.gg/0pYONBCFqQVPMnIF">Discord</a></li>
-        </ul>
-    </div>
-</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
