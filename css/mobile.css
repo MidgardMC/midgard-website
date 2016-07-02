@@ -14,7 +14,15 @@ body {
 .footer {
     font-size: 16px;
 }
-
+.footer-copy {
+    text-align: center;
+}
 .background-subpages {
     display: none;
+}
+
+.social-icons {
+    float: none !important;
+    text-align: center;
+    margin-left: -20px;
 }

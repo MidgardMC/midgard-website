@@ -2,25 +2,32 @@
 <html lang="en">
 <head>
     <!-- A website designed by @spinnibbler-->
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="We build nice things!">
     <meta name="author" content="Midgard">
+    <title>Midgard - We build nice things!</title>
     <!-- Twitter Card data-->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@midgardmc">
-    <meta name="twitter:title" content="Midgard">
-    <meta name="twitter:description" content="We build nice things!">
+    <meta name="twitter:title" content="Midgard | We build nice things!">
+    <meta name="twitter:description"
+          content="Midgard is a great place for me to get away from the stresses of college. -GeoPMel">
     <meta name="twitter:creator" content="@midgardmc">
-    <meta name="twitter:image" content="http://www.midgardmc.com/images/social_media/socialmedia.jpg">
+    <meta name="twitter:image" content="http://www.midgardmc.com/images/social_media/twittercard-july.jpg">
     <!-- Open Graph data -->
-    <meta property="og:title" content="Midgard" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.midgardmc.com/" />
-    <meta property="og:image" content="http://www.midgardmc.com/images/social_media/socialmedia.jpg" />
-    <meta property="og:description" content="We build nice things!" />
-    <title>Midgard - Rules</title>
+    <meta property="og:title" content="Midgard"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://www.midgardmc.com/"/>
+    <meta property="og:image" content="http://www.midgardmc.com/images/social_media/socialmediaalt.jpg"/>
+    <meta property="og:description" content="We build nice things!"/>
+    <!-- Fav Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/icons/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="./images/icons/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./images/icons/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./images/icons/favicons/manifest.json">
+    <link rel="mask-icon" href="./images/icons/favicons/safari-pinned-tab.svg" color="#000000">
+    <meta name="theme-color" content="#ffffff">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -67,11 +74,11 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="./about.html">About</a></li>
-                    <li><a href="./rules.html">Rules</a></li>
+                    <li><a href="https://www.reddit.com/r/MidgardMC/">Subreddit</a></li>
                     <!--<li><a href="./">Forums</a></li>-->
                     <li><a href="./dynmap.html">DynMap</a></li>
                     <li>
-                        <button class="btn navbar hideonmobile"
+                        <button class="btn navbar hideonmobile serverurl"
                                 style="background: none; margin-top: 0px !important; padding-bottom: 0px !important; padding-top: 0px !important;"
                                 data-toggle="tooltip" data-placement="bottom" title="Click to copy server URL"
                                 data-clipboard-text="mc.midgardmc.com">
@@ -341,36 +348,66 @@
 <!-- /top-link-block -->
 <footer class="footer">
     <div class="container-fluid custom-container-fluid-section">
+        <div class="row">
+            <div class="col-md-7">
+                <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./events">Events <sup>Alpha</sup></a></li>
+                    <li><a href="./rules.html">Rules</a></li>
+                    <li><a href="./dynmap.html">DynMap</a></li>
+                    <li>
+                        <button class="serverurl hideonmobile"
+                                style=" border-style: none; background: none; margin: 0px !important; padding: 0px !important; color: #337ab7;"
+                                data-toggle="tooltip" data-placement="right" title="Click to copy server URL"
+                                data-clipboard-text="mc.midgardmc.com">
+                            Connect
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-5 social-icons">
+                <ul>
+                    <li role="presentation"><a href="https://twitter.com/intent/follow?&screen_name=midgardmc">
 
-        <ul class="nav nav-pills">
-            <li role="presentation"><a href="https://twitter.com/intent/follow?&screen_name=midgardmc"><i
-                    class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-            </li>
-            <li role="presentation"><a href="https://www.reddit.com/r/MidgardMC/"><i
-                    class="fa fa-reddit-alien fa-2x" aria-hidden="true"></i></a>
-            </li>
-            <li role="presentation"><a href="mumble://mc.midgardmc.com?title=Root&version=1.2.0"><i
-                    class="fa fa-headphones fa-2x" aria-hidden="true"></i></a>
-            </li>
-            <li><a href="https://discord.gg/014TQwrNRaueX975o">
-                <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240" width="2.3em">
-                    <style>.st0 {
-                        fill: #3d3d3d;
-                    }</style>
-                    <path class="st0"
-                          d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"/>
-                    <path class="st0"
-                          d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"/>
-                </svg>
-            </a></li>
-            <li role="presentation"><a href="https://github.com/MidgardMC"><i
-                    class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-            </li>
-        </ul>
-        <p style="padding-left: 10px">Midgard is supported through the funds of the community. If you would like to
-            donate contact <a style="color: black" href="https://twitter.com/NgtFlyer">NgtFlyer.</a></p>
-        <p style="padding-left: 10px">Builds featured in screenshots were constructed by Legida, NgtFlyer and
-            NullMatrix</p>
+                        <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/>
+                        </svg>
+                    </a>
+                    </li>
+                    <li role="presentation"><a href="https://www.reddit.com/r/MidgardMC/">
+                        <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1792 846q0 58-29.5 105.5t-79.5 72.5q12 46 12 96 0 155-106.5 287t-290.5 208.5-400 76.5-399.5-76.5-290-208.5-106.5-287q0-47 11-94-51-25-82-73.5t-31-106.5q0-82 58-140.5t141-58.5q85 0 145 63 218-152 515-162l116-521q3-13 15-21t26-5l369 81q18-37 54-59.5t79-22.5q62 0 106 43.5t44 105.5-44 106-106 44-105.5-43.5-43.5-105.5l-334-74-104 472q300 9 519 160 58-61 143-61 83 0 141 58.5t58 140.5zm-1374 199q0 62 43.5 106t105.5 44 106-44 44-106-44-105.5-106-43.5q-61 0-105 44t-44 105zm810 355q11-11 11-26t-11-26q-10-10-25-10t-26 10q-41 42-121 62t-160 20-160-20-121-62q-11-10-26-10t-25 10q-11 10-11 25.5t11 26.5q43 43 118.5 68t122.5 29.5 91 4.5 91-4.5 122.5-29.5 118.5-68zm-3-205q62 0 105.5-44t43.5-106q0-61-44-105t-105-44q-62 0-106 43.5t-44 105.5 44 106 106 44z"/>
+                        </svg>
+                    </a>
+                    </li>
+                    <li role="presentation"><a href="mumble://mc.midgardmc.com?title=Root&version=1.2.0">
+                        <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1472 704v128q0 221-147.5 384.5t-364.5 187.5v132h256q26 0 45 19t19 45-19 45-45 19h-640q-26 0-45-19t-19-45 19-45 45-19h256v-132q-217-24-364.5-187.5t-147.5-384.5v-128q0-26 19-45t45-19 45 19 19 45v128q0 185 131.5 316.5t316.5 131.5 316.5-131.5 131.5-316.5v-128q0-26 19-45t45-19 45 19 19 45zm-256-384v512q0 132-94 226t-226 94-226-94-94-226v-512q0-132 94-226t226-94 226 94 94 226z"/>
+                        </svg>
+                    </a>
+                    </li>
+                    <li><a href="https://discord.gg/014TQwrNRaueX975o">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240">
+                            <path d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"/>
+                            <path d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"/>
+                        </svg>
+                    </a></li>
+                    <li role="presentation"><a href="https://github.com/MidgardMC">
+
+                        <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1664 896q0 251-146.5 451.5t-378.5 277.5q-27 5-39.5-7t-12.5-30v-211q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 89t.5 54q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/>
+                        </svg>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>Midgard is supported through the funds of the community. If you would like to
+                donate contact <a href="https://twitter.com/NgtFlyer">NgtFlyer.</a></p>
+            <p>Builds featured in screenshots were constructed by Legida, NgtFlyer and
+                NullMatrix</p>
+        </div>
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
