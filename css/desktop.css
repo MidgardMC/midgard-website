@@ -302,7 +302,12 @@ body > div.container-fluid.custom-container-fluid-section {
     height: 10px;
     margin-top: 20px;
 }
-
+.server-status-icon-alt {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+}
 .server-up{
     background-color: #32ff00;
 }
