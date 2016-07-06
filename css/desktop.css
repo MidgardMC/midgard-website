@@ -289,3 +289,9 @@ body > div.container-fluid.custom-container-fluid-section {
     text-transform: none;
     font-size: 1.4em;
 }
+
+.alert {
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0px;
+}
