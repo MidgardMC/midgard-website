@@ -46,11 +46,6 @@
     </style>
 </head>
 <body>
-<div class="alert alert-danger alert-dismissible fade in" role="alert">
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>
-    </button>
-    <strong>Alert!</strong> Midgard is currently down. Current estimated downtime is unknown.
-</div>
 <div class="background"></div>
 <div class="background-gradient">
 </div>
@@ -80,6 +75,24 @@
                                 data-clipboard-text="mc.midgardmc.com">
                             Connect
                         </button>
+                    </li>
+                    <li>
+                        <div class="hideonmobile server-status server-status-icon server-neutral">
+                            <span class="server-online server-neutral"></span>
+                        </div>
+                        <script src="https://mcapi.us/scripts/minecraft.js"></script>
+                        <script>
+                            MinecraftAPI.getServerStatus('mc.midgardmc.com', {
+                                port: 25565 // optional, only if you need a custom port
+                            }, function (err, status) {
+                                if (err) {
+                                    return document.querySelector('.server-status').innerHTML = '<div class="hideonmobile server-error server-status-icon"></div>';
+                                }
+
+                                // you can change these to your own message!
+                                document.querySelector('.server-online').innerHTML = status.online ? '<div class="hideonmobile server-up server-status-icon" title="Online"></div>' : '<div class="hideonmobile server-down server-status-icon" title="Offline"></div>';
+                            });
+                        </script>
                     </li>
                 </ul>
             </div><!--/.nav-collapse -->

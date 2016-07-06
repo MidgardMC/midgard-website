@@ -295,3 +295,26 @@ body > div.container-fluid.custom-container-fluid-section {
     border: none;
     border-radius: 0px;
 }
+
+.server-status-icon {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+.server-up{
+    background-color: #32ff00;
+}
+
+.server-down{
+    background-color: #ff0008;
+}
+
+.server-error{
+    background-color: #828282;
+}
+
+.server-neutral{
+    background-color: #232323;
+}
