@@ -1,3 +1,5 @@
+/*https://coolors.co/373737-90ddf0-668586-82aeb1-93c6d6*/
+
 @font-face {
     font-family: 'kollektif';
     src: url('../fonts/kollektif/kollektif-webfont.eot');
@@ -24,12 +26,39 @@
 
 }
 
+@keyframes homepage {
+    0% {
+        background-image: url("../images/homepage_images/featured_players_quotes/geopmel-july2016.png");
+    }
+    25% {
+        background-image: url("../images/showcase_gallery_images/showcase1.png")
+    }
+    50%{
+        background-image: url("../images/showcase_gallery_images/showcase2.png")
+    }
+    75%{
+        background-image: url("../images/showcase_gallery_images/showcase3.png")
+    }
+    100%{
+        background-image: url("../images/showcase_gallery_images/showcase4.png")
+    }
+
+}
+
 body {
-    background-color: #ffffff;
-    color: black;
+    background-color: #373737;
+    color: #FFFFFF;
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    color: #93C6D6;
+}
+
+a:hover{
+    color: #668586;
+    text-decoration: none;
+}
 .background {
     z-index: -99;
     background-image: url("../images/homepage_images/featured_players_quotes/geopmel-july2016.png");
@@ -39,6 +68,8 @@ body {
     background-size: cover;
     background-position: center 30%;
     position: absolute;
+    animation: homepage 36s linear infinite 0s;
+    animation-delay: 10s;
 }
 
 .background-gradient {
@@ -75,6 +106,7 @@ h1, h2, h3 {
     font-family: 'kollektif', sans-serif;
     text-transform: uppercase;
     letter-spacing: 10px;
+    color: #90DDF0;
 }
 
 .noletterspacing {
@@ -227,7 +259,7 @@ body > div.container-fluid.custom-container-fluid-section {
 }
 .social-icons > ul > li > a > svg:hover {
     width: 20px;
-    fill: #232323;
+    fill: #93C6D6;
 }
 .footer > .container-fluid > .row > .col-md-5 > .nav > li > a {
     color: #3d3d3d;
