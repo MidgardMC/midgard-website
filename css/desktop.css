@@ -68,8 +68,8 @@ a:hover{
     background-size: cover;
     background-position: center 30%;
     position: absolute;
-    animation: homepage 36s linear infinite 0s;
-    animation-delay: 10s;
+    /*animation: homepage 36s linear infinite 0s;*/
+    /*animation-delay: 10s;*/
 }
 
 .background-gradient {
