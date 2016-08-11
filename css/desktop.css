@@ -61,12 +61,12 @@ a:hover{
 }
 .background {
     z-index: -99;
-    background-image: url("../images/homepage_images/featured_players_quotes/killeravacado-august2016.png");
+    background-image: url("../images/homepage_images/homepagefeaturedimage.png");
     width: 100% !important;
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 30%;
+    background-position: center 40%;
     position: absolute;
     /*animation: homepage 36s linear infinite 0s;*/
     /*animation-delay: 10s;*/
