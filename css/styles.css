@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+    url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+    url('../fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+    url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+    url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@keyframes showcase {
+    0% {
+        background-image: url("../images/header1.png");
+        box-shadow: 15px 15px 0px 0px rgb(55, 235, 224);
+        border-color: #fc4300;
+    }
+    20% {
+        background-image: url("../images/header2.png");
+        box-shadow: 15px 15px 0px 0px rgb(155, 31, 235);
+        border-color: #65fcf9;
+    }
+    40% {
+        background-image: url("../images/header3.png");
+        box-shadow: 15px 15px 0px 0px rgb(235, 227, 9);
+        border-color: #fc4d97;
+    }
+    60% {
+        background-image: url("../images/header4.png");
+        box-shadow: 15px 15px 0px 0px rgb(124, 252, 0);
+        border-color: #dc97fc;
+    }
+    80% {
+        background-image: url("../images/showcase1.png");
+        box-shadow: 15px 15px 0px 0px rgb(55, 235, 224);
+        border-color: #fc4900;
+    }
+    100% {
+        background-image: url("../images/showcase2.png");
+        box-shadow: 15px 15px 0px 0px rgba(235, 0, 139, 1);
+        border-color: #7cfc00;
+    }
+}
+
+header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    background-color: #0099ff;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'montserratregular';
+    text-transform: uppercase;
+
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, a {
+    font-family: 'latoregular';
+    line-height: 20px;
+}
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+iframe {
+    width: 100%;
+    pointer-events: none;
+}
+
+.container {
+    width: 978px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome, .about, .dynmap, iframe {
+    height: 95vh;
+    position: relative;
+}
+
+header h1 {
+    line-height: 50px;
+    font-family: 'montserratbold';
+    letter-spacing: 5px;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header a {
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+footer {
+    height: 30vh;
+    padding-top: 40px;
+    background-color: #353535;
+    color: white;
+}
+
+footer h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    color: #c7c7c7;
+}
+
+footer a {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+.welcome {
+    /*background-color: #FAAF40;*/
+    background-color: rgba(250, 175, 64, 1);
+    position: relative;
+
+}
+
+/*.welcomecolor {
+    background-color: rgba(250, 175, 64, 0.65);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}*/
+
+.about {
+
+    background-color: #7cfc00;
+
+}
+
+.logo {
+    /*background-color: #0099ff;*/
+    background-image: url("../images/header1.png");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 15px 15px 0px 0px rgba(235, 0, 139, 1);
+    border-color: #7cfc00;
+    border-width: 10px;
+    border-style: solid;
+    animation-name: showcase;
+    animation-duration: 4s;
+    animation-timing-function: step-start;
+    animation-iteration-count: infinite;
+}
+
+.logo:hover {
+    top: 5vh;
+    width: 600px;
+    height: 600px;
+}
+
+.logo:hover .hide {
+
+    opacity: 0;
+
+}
+
+.logocolor {
+    background-color: rgba(0, 153, 255, 0.81);
+    position: absolute;
+    height: inherit;
+    width: inherit;
+
+}
+
+.logo h1 {
+    font-family: montserratbold;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -115px;
+}
+
+.logo p {
+    font-family: 'montserratlight';
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -106px;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.column {
+    float: left;
+    margin-right: 30px;
+}
+
+#content {
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+}
