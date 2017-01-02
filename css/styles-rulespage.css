@@ -1,0 +1,12 @@
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px #25c2f2;
+}
+p {
+    color: white;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+}
