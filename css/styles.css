@@ -195,6 +195,10 @@ iframe {
     padding: 20px;
 }
 
+.team-members{
+    text-align: center;
+}
+
 #feature-area {
     height: 100vh;
     padding-top: 30px;
