@@ -116,7 +116,7 @@ iframe {
 }
 
 .server-feature {
-    background-color: rgba(235, 0, 139, 1);
+    background-color: rgb(75, 75, 75);
     border: #25c2f2;
     border-style: solid;
     border-radius: 6px;
@@ -152,7 +152,7 @@ iframe {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    background-color: rgba(235, 0, 139, 1);
+    background-color: rgb(75, 75, 75);
     border-radius: 6px;
 }
 
