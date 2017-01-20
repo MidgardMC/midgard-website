@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Midgard</title>
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles-rulespage.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        body {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-midgard">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Midgard</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="content">
+    <div class="container">
+        <h1>[How-To] Using Signshop</h1>
+        <h2>Guide originally written by jesskitten</h2>
+        <div class="content">Note to mods: Here's my attempt at a guide. Don't feel obliged to have to use it! Also feel
+            free to edit or cut it down a bit or whatever. :P<br><br><br>Hello! This is a screenshot
+            tutorial of how to create the four basic and most common types of Signshop signs, <span
+                    style="color: #0040FF">[Buy]</span>, <span style="color: #0040FF">[Sell]</span>, <span
+                    style="color: #0040FF">[Donate]</span> and <span style="color: #0040FF">[DonateHand]</span>.
+            Actually <span style="color: #0040FF">[Donate]</span> signs are very rare but they're a hybrid of the <span
+                    style="color: #0040FF">[Buy]</span>/<span style="color: #0040FF">[Sell]</span> ones and the <span
+                    style="color: #0040FF">[DonateHand]</span> ones, and I had an extra sign on hand, so I put that in
+            too. Sorry.<br><br><br><span style="font-size: 150%; line-height: 116%;"><span style="font-weight: bold">SOME COMMON BUGS</span></span><br>-
+            If you are setting up a <span style="color: #0040FF">[Buy]</span> or <span
+                    style="color: #0040FF">[Sell]</span> sign, DO NOT INCLUDE MORE THAN ONE PERIOD IN THE LAST LINE
+            (price). The item will be flagged as being on sale for 0.00 coins!<br>- You cannot use signs while holding
+            dye items (bonemeal, cacti, lapis lazuli, etc) because they're linked to some sign replace function in the
+            Signshop code. Therefore you cannot donate them, nor redstone dust, using <span style="color: #0040FF">[DonateHand]</span>
+            signs, even though that Signshop functionality is disabled for us mortals. Regular <span
+                    style="color: #0040FF">[Buy]</span>, <span style="color: #0040FF">[Sell]</span> and <span
+                    style="color: #0040FF">[Donate]</span> signs work though as we do not have to be holding those items
+            to use those signs.<br>- As of last patch, the first line of the sign (<span
+                    style="color: #0040FF">[Buy]</span>, <span style="color: #0040FF">[Sell]</span>, etc) gets indented
+            weirdly once the link between the sign and chest has been set up. Looks very strange.<br>- As of last patch,
+            you sometimes cannot break a sign (<span style="color: #0040FF">[Buy]</span>, <span style="color: #0040FF">[Sell]</span>,
+            etc) once the link has been set up and the first line has turned <span style="color: #0040FF">blue</span>.
+            To get around this, break the block the sign is attached to and it should pop free.<br><br><br><span
+                    style="font-size: 150%; line-height: 116%;"><span style="color: #ed0000">This guide hasn't been updated for the latest plugin version. The only difference is that you must punch the chest before the sign.</span></span><br><br><br><span
+                    style="font-size: 150%; line-height: 116%;"><span style="font-weight: bold">Selling items (<span
+                    style="color: #0040FF">[Buy]</span> signs)</span></span><br><br><span
+                    style="color: #0040FF">[Buy]</span> Signs allow the player to buy things from you - if you are the
+            owner of a shop and want to sell things to customers, this is the sign you want to use.<br><br>To create a
+            <span style="color: #0040FF">[Buy]</span> sign, place a sign with the following syntax:<br>- The first line
+            has to just contain the text: [Buy]<br>- The second and third line can contain any text. These are commonly
+            used to describe the item/s on sale.<br>- The fourth line can contain any text, but must contain a number in
+            the form X, or X.YZ on the line somewhere. It doesn't matter if you put $X.YZ, X pennies, X cheetoes, or
+            whatever currency you want to call it. The number just has to be there.<br>For example,<br><img class="img-responsive" class="img-responsive"
+                    src="images/guides/signshop/buy1.png" alt="Image"><br><br>You must also ensure you select a target chest,
+            and fill it with EXACTLY the type and number of items you want to sell per transaction. Be careful, if you
+            wanted to sell 1 diamond, and you put a stack of 5 in and set up the connection between the sign and the
+            chest, it will sell all 5 diamonds to the first person that clicks on the sign wanting to buy one! Instead
+            you must put 1 diamond in, set up the connection, and then put the other 4 in to make sure your shop has
+            enough stock.<br><br>So in this case, I will set up a sign to sell 1 slime ball for 5 coins. First I ensure
+            that there is exactly 1 slime ball in the chest I want to use to store my stock.<br><img class="img-responsive"
+                    src="images/guides/signshop/buy2.png" alt="Image"><br><br>Then I set up the sign, and left or right click
+            on the sign while holding redstone dust.<br><img class="img-responsive" src="images/guides/signshop/buy3.png" alt="Image"><br><br>Lastly,
+            I left click on the chest containing the single slime ball while holding redstone dust.<br><img class="img-responsive"
+                    src="images/guides/signshop/buy4.png" alt="Image"><br><br>Note the status messages after each step. If I am
+            putting multiple items up for sale from one sign (ie an "iron golem DIY kit" containing 4 iron blocks and 1
+            pumpkin), the last status message will summarise all the items that will be sold per transaction. Always
+            check the last line to ensure that there are no mistakes! It is possible to accidentally set the shop up to
+            sell multiple items for the price of 1, or sell the items in the shop for 0.00 coins. <br><br><span
+                    style="font-weight: bold"><span
+                    style="text-decoration: underline">Remember to lock your chests!</span></span><br><br><br><span
+                    style="font-size: 150%; line-height: 116%;"><span style="font-weight: bold">Buying items (<span
+                    style="color: #0040FF">[Sell]</span> signs)</span></span><br><br>Similarly, <span
+                    style="color: #0040FF">[Sell]</span> signs allow the player to sell things to you - if you are the
+            owner of a shop and want to allow players to sell you items for a fee, this is the sign you want to use.<br><br>The
+            syntax for a <span style="color: #0040FF">[Sell]</span> sign is the same as a <span style="color: #FF0000">[Buy]</span>
+            one:<br>- The first line has to just contain the text: [Sell]<br>- The second and third line can contain any
+            text. These are commonly used to describe the item you want to buy.<br>- The fourth line can contain any
+            text, but must contain a number in the form X, or X.YZ on the line somewhere.<br>For example,<br><img class="img-responsive"
+                    src="images/guides/signshop/sell1.png" alt="Image"><br><br>You then select a target chest and fill it with
+            EXACTLY the number of items you want to buy per transaction. So if you want to set up a sign to buy 64 glass
+            blocks at a time, you must first have 64 glass blocks, put that in the chest, and link the sign to it. You
+            do not need to keep the source item in the chest, so after that you may remove the items in the chest, if
+            you like.<br><br>So in this case, I will set up a sign to buy 1 slime ball for 0.75 coins. First I ensure
+            that there is exactly 1 slime ball in the chest.<br><img class="img-responsive" src="images/guides/signshop/sell2.png"
+                                                                     alt="Image"><br><br>Then I set up the sign, and
+            left or right click on the sign while holding redstone dust.<br><img class="img-responsive" src="images/guides/signshop/sell3.png"
+                                                                                 alt="Image"><br><br>Lastly, I left
+            click on the chest containing the single slime ball while holding redstone dust.<br><img class="img-responsive"
+                    src="images/guides/signshop/sell4.png" alt="Image"><br><br>Note the status messages after each step. Be
+            sure to check the item and price at the end. Also as a reminder again, you may remove the items in the chest
+            after doing this, if you like.<br><br><span style="font-weight: bold"><span
+                    style="text-decoration: underline">Remember to lock your chests!</span></span><br><br><br><span
+                    style="font-size: 150%; line-height: 116%;"><span style="font-weight: bold">Donate items (<span
+                    style="color: #0040FF">[Donate]</span> signs)</span></span><br><br><span style="color: #0040FF">[Donate]</span>
+            signs are set up exactly the same way as <span style="color: #FF0000">[Buy]</span>/<span
+                    style="color: #FF0000">[Sell]</span> signs. These are seldom used because they are tied specifically
+            to only one item. Some possible uses for these are for the customer to donate back wooden bowls after buying
+            and consuming your wooden bowls, sorting large amounts of resource stacks, donating dye items (which do not
+            work with <span style="color: #FF0000">[DonateHand]</span> signs), or if t2t2 keeps griefing your <span
+                    style="color: #FF0000">[DonateHand]</span> chest with seeds. Then again, it might not help that last
+            case.<br><br>The syntax for a <span style="color: #0040FF">[Donate]</span> sign is simpler:<br>- The first
+            line has to just contain the text: [Donate]<br>- The other lines can contain any text. These are commonly
+            used to describe what item the sign will take, and why.<br>For example,<br><img class="img-responsive"
+                    src="images/guides/signshop/donate1.png" alt="Image"><br><br>You then select a target chest and fill it
+            with EXACTLY the number of items you want to get per donation. As before, you will need to actually own the
+            correct number of the item you want to be donated to you, to set up the chest. You do not need to keep the
+            source item in the chest after either, so you may remove the items in the chest after setting up the sign,
+            if you like.<br><br>So in this case, I will set up a sign to allow the user to donate 1 slime ball to me.
+            First I ensure that there is exactly 1 slime ball in the chest.<br><img class="img-responsive" src="images/guides/signshop/donate2.png"
+                                                                                    alt="Image"><br><br>Then I set up
+            the sign, and left or right click on the sign while holding redstone dust.<br><img class="img-responsive"
+                    src="images/guides/signshop/donate3.png" alt="Image"><br><br>Lastly, I left click on the chest containing
+            the single slime ball while holding redstone dust.<br><img class="img-responsive" src="images/guides/signshop/donate4.png"
+                                                                       alt="Image"><br><br>Note the status messages
+            after each step. Be sure to check the item and quantity at the end. Also as a reminder again, you may remove
+            the items in the chest after doing this, if you like.<br><br><span style="font-weight: bold"><span
+                    style="text-decoration: underline">Remember to lock your chests!</span></span><br><br><br><span
+                    style="font-size: 150%; line-height: 116%;"><span style="font-weight: bold">Generic Donation signs (<span
+                    style="color: #0040FF">[DonateHand]</span> signs)</span></span><br><br><span style="color: #0040FF">[DonateHand]</span>
+            signs allow the user to donate whatever item they are currently "holding" to the target chest. The user must
+            put the item in their shortcut bar, select it, and then right click on your sign. They are easier to set up
+            than the other signs, and are great because they are not tied to just any one item. They are often used as
+            generic donation chests in shops, or in a mining outpost to donate resources back to your home base. Another
+            use for them is to link one from your house to the donation chests in Leoville spawn, so that you can
+            quickly restock those chests with extra stuff.<br><br>The syntax for a <span style="color: #0040FF">[DonateHand]</span>
+            sign is the same as a <span style="color: #FF0000">[Donate]</span> one:<br>- The first line has to just
+            contain the text: [DonateHand]<br>- The other lines can contain any text. These are commonly used to
+            describe where the donation will go to.<br>For example,<br><img class="img-responsive" src="images/guides/signshop/dh1.png"
+                                                                            alt="Image"><br><br>You then hit the sign
+            with redstone, select a target chest and hit that too, and that's it! You must be able to normally use the
+            chest, if the chest is locked and you are not on the access list then you will not be able to make that
+            chest the target of your <span style="color: #0040FF">[DonateHand]</span> sign either.<br><br>So in this
+            case, I will set up a sign to allow the user to donate an item back to a chest at my house. First I set up
+            the sign, and left or right click on the sign while holding redstone dust.<br><img class="img-responsive"
+                    src="images/guides/signshop/dh2.png" alt="Image"><br><br>Then I go to where my target chest is, and left
+            click on the chest while holding redstone dust.<br><img class="img-responsive" class="img-responsive" src="images/guides/signshop/dh3.png" alt="Image"><br><br>And
+            that's it! Now I can donate all manner of items from where my sign is, to where my chest is, as long as the
+            chest has room in it. You cannot donate dye items to <span style="color: #0040FF">[DonateHand]</span>
+            chests, though, nor redstone dust, as they are linked to other Signshop functions.<br><br><span
+                    style="font-weight: bold"><span
+                    style="text-decoration: underline">Remember to lock your chests!</span></span><br><br><br><span
+                    style="font-size: 150%; line-height: 116%;"><span style="font-weight: bold">Frequently Asked Questions</span></span><br><br>Q:
+            Hi! I'm a shopper, but I'm not sure what this sign is buying or selling?<br>A: LEFT click on the sign to
+            check what the shop is buying or selling before right clicking on it to complete the transaction! When you
+            left click on the sign, the game tells you the exact transaction that the sign involves.<br><br>Q: What does
+            a <span style="color: #FF0000">red</span> sign mean?<br>A: It usually means either the linked chest is empty
+            (for <span style="color: #0040FF">[Buy]</span> signs), or full (for <span
+                    style="color: #0040FF">[Sell]</span>, <span style="color: #0040FF">[Donate]</span>, or <span
+                    style="color: #0040FF">[DonateHand]</span> signs).<br><br>Q: But I just restocked all the items in
+            the chest! And added a new item! And all the <span style="color: #0040FF">[Buy]</span> signs (but one) still
+            show <span style="color: #FF0000">red</span>!<br>A: To force the signs to update in these cases, left click
+            on any of the signs. All the linked signs should update and turn <span style="color: #0040FF">blue</span> as
+            appropriate.<br><br>Q: Can I link more than one sign to a chest?<br>A: Yes. You can link multiple <span
+                    style="color: #0040FF">[Buy]</span>, <span style="color: #0040FF">[Sell]</span>, <span
+                    style="color: #0040FF">[Donate]</span>, <span style="color: #0040FF">[DonateHand]</span>, or
+            combinations thereof to a single chest. You can sell several different items linked to different signs but
+            keep all the stock in a single chest, you just have to remove all the items each time you want to add a new
+            item for sale from that chest. A bit more of a hassle, but less chests cluttering up the place.<br><br>Q:
+            Can I link more than one chest to a sign? (Say if the first one becomes full)<br>A: Sadly not!<br><br>Q: Do
+            connections between the signs and their linked chests work across different (Multiverse) worlds?<br>A: They
+            sure do!<br><br>Q: Is there a way to make a <span style="color: #0040FF">[Sell]</span> or <span
+                    style="color: #0040FF">[Donate]</span> sign for an item I don't have?<br>A: Nope, not without at
+            least borrowing the item from someone else.<br><br>Q: It says, "The sign you clicked doesn't have a valid
+            operation!" when I try to set up a sign.<br>A: You have to capitalise the B in <span style="color: #0040FF">[Buy]</span>,
+            S in <span style="color: #0040FF">[Sell]</span>, D in <span style="color: #0040FF">[Donate]</span>, and both
+            the D and H in <span style="color: #0040FF">[DonateHand]</span>. Everything else must be in
+            lowercase.<br><br>Q: It says, "Please hit the sign with the new info first." when I try to use a sign.<br>A:
+            You're trying to use a sign while holding a dye item. Hold something else (or nothing) and try again. If you
+            are trying to use a <span style="color: #0040FF">[DonateHand]</span> sign with that item, well, you can't.
+            See Bugs section at the top.<br><br>Q: It says, "Can you build? Yes." or "WorldGuard: No defined regions
+            here!" (or other weird messages)<br>A: You're trying to use a sign while holding an item that has another
+            defined action for right-clicking from another mod. In the case of the two examples given here, that's when
+            you are holding string and WorldGuard is installed/configured.<br><br>Q: Can you 'limit' the amount of an
+            item you want to buy? So someone doesn't clean me out of all my money selling me stacks of glass when I only
+            really want to buy 1 or 2 at a time and pay a fair price for it?<br>A: Kind of, to an extent. Say if you
+            only wanted to buy a maximum of 5 stacks of an item, you could fill the linked chest with junk so that there
+            are only 5 spots open in the chest, with the rest of the spots containing 1 seed in each, or something like
+            that. Similarly with half-stacks, though they're tougher to do as you need more of a source item. If you
+            wanted to buy a half a stack of books, you could fill the rest of the chest with spare junk, and have a
+            half-stack of books already in there so any sellers would only be able to fill up the rest of it before the
+            chest runs out of stock. <br><br>&lt;More coming -- suggest!&gt;<br><br><br>Hope that helps!
+        </div>
+
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="col-md-3">
+            <h3>Server Links</h3>
+            <ul>
+                <li><a href="http://mc.midgardmc.com:8123">DynMap</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><p>Connect: mc.midgardmc.com</p></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h3>Social</h3>
+            <ul>
+                <li><a href="mumble://mc.midgardmc.com">Mumble</a></li>
+                <li><a href="https://discord.gg/014TQwrNRaueX975o">Discord</a></li>
+                <li><a href="https://www.facebook.com/mcmidgard">Facebook</a></li>
+                <li><a href="https://twitter.com/intent/follow?&screen_name=midgardmc">Twitter</a></li>
+                <li><a href="https://www.reddit.com/r/MidgardMC/">Reddit</a></li>
+                <li><a href="https://github.com/MidgardMC">GitHub</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+        </div>
+    </div>
+</footer>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script>$('.collapse').collapse()</script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        // EVENT HANDLERS
+        $('li a').on('click', function (event) {
+            event.preventDefault();
+
+
+            var destination = $(this).attr('href');
+
+
+            $('html, body').stop().animate({
+                scrollTop: $(destination).offset().top - 55
+            }, 1500, 'easeInOutExpo');
+        });
+
+    });
+
+
+</script>
+
+</body>
+</html>
