@@ -247,7 +247,7 @@ iframe {
 }
 
 #navbar {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 @media (min-width:300px) {
