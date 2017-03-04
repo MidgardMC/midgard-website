@@ -36,7 +36,7 @@
 
 body {
     font-family: 'latoregular';
-    background-color: #231f20;
+    background-color: #ffffff;
 }
 
 h1, h2, h3 {
@@ -63,14 +63,17 @@ footer a:hover {
 
 section {
     padding-top: 100px;
-    color: white;
-    margin-bottom: 100px;
+    /*color: white;*/
+}
+
+section #feature-area {
+    margin-bottom: 0px;
 }
 
 section h1 {
-    /*color: #25c2f2;*/
+    color: #25c2f2;
     font-size: 72px;
-    text-shadow: 4px 4px 0px #25c2f2;
+    /*text-shadow: 4px 4px 0px #25c2f2;*/
     letter-spacing: 3px;
 }
 
@@ -110,7 +113,12 @@ iframe {
     color: white;
     text-shadow: 2px 2px 0px rgba(85, 242, 42, 1);
 }
-
+.navbar-brand{
+    margin-top: -5px;
+}
+.featured-sections {
+    padding-bottom: 100px;
+}
 .server-feature .btn {
     width: 100%;
 }
@@ -126,6 +134,7 @@ iframe {
     background-repeat: no-repeat;
     height: 400px;
     position: relative;
+    color: white;
 }
 
 .server-feature:hover {
@@ -138,8 +147,10 @@ iframe {
     transition: box-shadow 1s, border 1s;
 }
 
+
 .server-feature h2 {
     margin-top: 0px;
+    color: white;
 }
 
 .server-feature small {
@@ -167,9 +178,10 @@ iframe {
 }
 
 .feature-content {
-    /*margin-top: 300px;*/
-    /*margin-bottom: 50px;*/
     text-align: left;
+    background-color: rgb(241, 124, 0);
+    padding: 20px;
+    color: white;
 }
 
 .feature-content h1 {
@@ -177,16 +189,17 @@ iframe {
     letter-spacing: 5px;
     margin-top: 5px;
     margin-bottom: 2px;
-    font-size: 70px;
-    background-color: #0f0f0f;
+    font-size: 50px;
+    color: white;
+/*    background-color: #0f0f0f;*/
     /*display: inline;*/
 }
 
 .feature-content h2 {
     font-family: 'montserratlight';
     /*letter-spacing: 5px;*/
-    text-transform: lowercase;
-    font-size: 12px;
+    text-transform: none;
+/*    font-size: 12px;*/
     margin-top: 0px;
 }
 
@@ -200,19 +213,15 @@ iframe {
 }
 
 #feature-area {
-    height: 100vh;
+    height: 600px;
     padding-top: 30px;
-    background-image: url(../images/featureimg.jpg);
+    padding-bottom: 0px;
+    background-image: url(../images/featureimg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-
-#about {
-    /*background-color: #ff8000;*/
-    color: white;
-}
 
 #mcimage {
     background-image: url("../images/minecraft-server.jpg");
@@ -247,26 +256,53 @@ iframe {
 }
 
 #navbar {
-    /*text-transform: uppercase;*/
+/*    text-transform: uppercase;*/
+}
+
+#feature-area-text {
+    padding: 0;
+
+}
+
+#servers h1 {
+    margin-bottom: 50px;
 }
 
 @media (min-width:300px) {
-    section h1 {
-        font-size: 50px;
+    section h1, .feature-content h1 {
+        font-size: 30px;
+    }
+    .feature-content h2{
+        font-size: 18px;
     }
 }
 @media (min-width:768px) {
-    section h1 {
+    section h1, .feature-content h1 {
         font-size: 50px;
     }
+
+    .feature-content h2{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
 }
 @media (min-width:992px) {
-    section h1 {
+    section h1, .feature-content h1 {
         font-size: 50px;
     }
+    .feature-content h2{
+        font-size: 28px;
+    }
+
 }
 @media (min-width:1200px) {
     section h1 {
         font-size: 72px;
     }
+    .feature-content h2{
+        font-size: 28px;
+    }
+
+
 }
