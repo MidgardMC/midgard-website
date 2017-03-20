@@ -213,15 +213,49 @@ iframe {
 }
 
 #feature-area {
-    height: 600px;
-    padding-top: 30px;
+    height: 500px;
+    padding-top: 0px;
     padding-bottom: 0px;
-    background-image: url(../images/featureimg.png);
+    /*background-image: url(../images/featureimg.png);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+#carousel-midgard {
+    height: 500px;
+}
+#homeimage1 {
+    background-image: url(../images/homeslider1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+
+}
+#homeimage2 {
+    background-image: url(../images/header1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+#homeimage3 {
+    background-image: url(../images/header2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+#homeimage4 {
+    background-image: url(../images/featureimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
 
 #mcimage {
     background-image: url("../images/minecraft-server.jpg");
