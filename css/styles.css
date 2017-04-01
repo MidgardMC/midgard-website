@@ -302,6 +302,10 @@ iframe {
     margin-bottom: 50px;
 }
 
+.alert{
+    margin-bottom: 0px;
+}
+
 @media (min-width:300px) {
     section h1, .feature-content h1 {
         font-size: 30px;
