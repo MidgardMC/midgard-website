@@ -138,7 +138,8 @@ iframe {
 #zoo-cam{
     /*color: #e00000;*/
     background-color: #e00000;
-    border-radius: 2px;
+    border-radius: 3px;
+    margin-left: 5px;
 }
 #zoo-cam .glyphicon-record {
     padding-top: 2px;
@@ -195,6 +196,13 @@ iframe {
     border-radius: 6px;
 }
 
+.server-status {
+    margin-top: 50px;
+}
+.server-online {
+    font-size: 10px;
+    text-transform: uppercase;
+}
 .info {
     margin-bottom: 50px;
 }
@@ -350,6 +358,16 @@ iframe {
     .feature-content h2{
         font-size: 18px;
     }
+
+    .team-members{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .team-members img {
+        margin: 0 auto;
+    }
+
 }
 @media (min-width:768px) {
     section h1, .feature-content h1 {
@@ -359,6 +377,13 @@ iframe {
     .feature-content h2{
         font-size: 28px;
         margin-bottom: 20px;
+    }
+    .team-members{
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .team-members img {
+        margin: 0;
     }
 
 }
