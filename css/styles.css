@@ -33,6 +33,18 @@
     font-style: normal;
 
 }
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
 
 body {
     font-family: 'latoregular';
@@ -41,7 +53,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'montserratregular';
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 footer {
@@ -74,7 +86,7 @@ section h1 {
     color: #25c2f2;
     font-size: 72px;
     /*text-shadow: 4px 4px 0px #25c2f2;*/
-    letter-spacing: 3px;
+    /*letter-spacing: 3px;*/
 }
 
 iframe {
@@ -83,7 +95,7 @@ iframe {
 }
 
 .content {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .text-container {
@@ -96,6 +108,12 @@ iframe {
     font-family: 'montserratlight';
 }
 
+.navbar {
+    min-height: 70px;
+}
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-top: 10px;
+}
 .navbar-default {
     background-color: #25c2f2;
     color: white;
@@ -114,8 +132,18 @@ iframe {
     text-shadow: 2px 2px 0px rgba(85, 242, 42, 1);
 }
 .navbar-brand{
-    margin-top: -5px;
+    margin-top: -15px;
 }
+
+#zoo-cam{
+    /*color: #e00000;*/
+    background-color: #e00000;
+    border-radius: 2px;
+}
+#zoo-cam .glyphicon-record {
+    padding-top: 2px;
+}
+
 .featured-sections {
     padding-bottom: 100px;
 }
@@ -186,7 +214,7 @@ iframe {
 
 .feature-content h1 {
     font-family: 'montserratbold';
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     margin-top: 5px;
     margin-bottom: 2px;
     font-size: 50px;
@@ -209,7 +237,18 @@ iframe {
 }
 
 .team-members{
-    text-align: center;
+    /*text-align: center;*/
+}
+.team-members h2 {
+    text-transform: none;
+}
+.team-members-header{
+    /*font-size: 32px;*/
+    margin-bottom: 50px;
+}
+
+.glyphicon-record{
+    animation: pulse 5s infinite;
 }
 
 #feature-area {
@@ -226,7 +265,7 @@ iframe {
     height: 500px;
 }
 #homeimage1 {
-    background-image: url(../images/homeslider1.png);
+    background-image: url(../images/header4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -250,7 +289,7 @@ iframe {
 }
 
 #homeimage4 {
-    background-image: url(../images/featureimg.png);
+    background-image: url(../images/header3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -276,8 +315,6 @@ iframe {
 #team img {
     display: block;
     margin-bottom: 10px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 #scroll-down{
@@ -336,7 +373,7 @@ iframe {
 }
 @media (min-width:1200px) {
     section h1 {
-        font-size: 72px;
+        font-size: 48px;
     }
     .feature-content h2{
         font-size: 28px;
