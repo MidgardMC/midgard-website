@@ -270,7 +270,7 @@ section h1 {
     height: 500px;
 }
 #homeimage1 {
-    background-image: url(../images/header4.png);
+    background-image: url(../images/header1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -278,7 +278,7 @@ section h1 {
 
 }
 #homeimage2 {
-    background-image: url(../images/header1.png);
+    background-image: url(../images/header2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -286,7 +286,7 @@ section h1 {
 }
 
 #homeimage3 {
-    background-image: url(../images/header2.png);
+    background-image: url(../images/header3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -294,7 +294,7 @@ section h1 {
 }
 
 #homeimage4 {
-    background-image: url(../images/header3.png);
+    background-image: url(../images/header4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

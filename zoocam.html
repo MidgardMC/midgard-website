@@ -3,16 +3,25 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Midgard is a whitelist Minecraft Community.">
+    <meta name="keywords" content="Minecraft,gaming,video,games">
+    <meta name="author" content="Midgard">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Midgard</title>
 
+    <title>Midgard Zoo Cam</title>
+    <!-- Reset CSS -->
     <link href="css/reset.css" rel="stylesheet" type="text/css"/>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
     <link href="css/styles.css" rel="stylesheet">
-    <link href="css/styles-rulespage.css" rel="stylesheet">
-
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#25c2f2">
+    <meta name="theme-color" content="#ffffff">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,8 +33,9 @@
             background-color: #54341f;
             color: white;
         }
+
         iframe {
-            /*margin: 0 auto;*/
+            margin-top: 10px;
             width: 100%;
         }
 
@@ -37,6 +47,10 @@
         #zoocampage a {
             color: white;
             text-decoration: underline;
+        }
+
+        .zoo-content{
+            margin-bottom: 50px;
         }
 
     </style>
@@ -92,18 +106,21 @@
 </header>
 <div class="content">
     <div class="container" id="zoocampage">
-        <h1>Zoo Cam</h1>
-        <p>Don't see a live video feed? Either we're offline or streaming to our <a href="https://www.youtube.com/channel/UCtw4_2ahi3QpRFeWEMlJALg/live">YouTube Channel</a>.</p>
-        <p>This feed is still in Beta. We're still finding the best solution to stream to.</p>
         <div class="row">
             <div class="col-md-12">
                 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmcmidgard%2Fvideos%2F626860227505986%2F"
-                width="100%" height="700px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                allowTransparency="true" allowFullScreen="true"></iframe>
+                        width="100%" height="650px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allowFullScreen="true"></iframe>
             </div>
         </div>
+        <div class="zoo-content">
+        <h1>Zoo Cam</h1>
+        <p>Don't see a live video feed? Either we're offline or streaming to our <a
+                href="https://www.youtube.com/channel/UCtw4_2ahi3QpRFeWEMlJALg/live">YouTube Channel</a>.</p>
+        <p>This feed is still in Beta. We're still finding the best solution to stream to.</p>
         </div>
     </div>
+</div>
 </div>
 <footer>
     <div class="container">
@@ -122,6 +139,7 @@
             <ul>
                 <li><a href="#">Mumble</a></li>
                 <li><a href="https://twitter.com/intent/follow?&screen_name=midgardmc">Twitter</a></li>
+                <li><a href="https://www.facebook.com/mcmidgard">Facebook</a></li>
                 <li><a href="https://www.reddit.com/r/MidgardMC/">Reddit</a></li>
                 <li><a href="https://github.com/MidgardMC">GitHub</a></li>
             </ul>
