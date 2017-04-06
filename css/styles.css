@@ -35,14 +35,14 @@
 }
 @keyframes pulse {
     0% {
-        opacity: 0;
+        opacity: .5;
     }
     50% {
         opacity: 1;
     }
 
     100% {
-        opacity: 0;
+        opacity: .5;
     }
 }
 
@@ -89,10 +89,7 @@ section h1 {
     /*letter-spacing: 3px;*/
 }
 
-iframe {
-    height: 60vh;
-    width: 100%;
-}
+
 
 .content {
     margin-top: 70px;
