@@ -57,13 +57,13 @@ h1, h2, h3 {
 }
 
 footer {
-    background-color: #161616;
-    color: white;
+    background-color: #202020;
+    color: #5e5e5e;
     padding-bottom: 30px;
 }
 
 footer a {
-    color: white;
+    color: #5e5e5e;
     text-decoration: none;
 }
 
@@ -252,8 +252,8 @@ section h1 {
     margin-bottom: 50px;
 }
 
-.glyphicon-record{
-    animation: pulse 5s infinite;
+.glyphicon-facetime-video{
+    animation: pulse 3s infinite;
 }
 
 #feature-area {
@@ -343,6 +343,8 @@ section h1 {
 #servers h1 {
     margin-bottom: 50px;
 }
+
+
 
 .alert{
     margin-bottom: 0px;

@@ -12,6 +12,13 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/styles-rulespage.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#25c2f2">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,7 +26,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script src="https://use.fontawesome.com/5f0a3a0421.js"></script>
     <style>
         body {
             background-color: white;
@@ -28,6 +35,9 @@
         .guidetitle {
             background-color: #231f20;
             color: white;
+        }
+        footer {
+            margin-top: 100px;
         }
     </style>
 </head>
@@ -43,7 +53,29 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Midgard</a>
+                <a class="navbar-brand" href="index.html"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 90.2 90.2" style="enable-background:new 0 0 90.2 90.2; width: 50px; fill: #ffffff" xml:space="preserve">
+<style type="text/css">
+	.st0 {
+        fill: #ffffff;
+        width: 40px;
+
+    }
+</style>
+<g id="Layer_2">
+	<g id="Layer_1-2">
+		<path class="st0" d="M84.6,5.6v79h-79v-79L84.6,5.6 M90.2,0H0v90.2h90.2V0z"/>
+		<rect x="37.5" y="40" width="10.9" height="10.9"/>
+		<rect x="37.5" y="55.3" width="10.9" height="10.9"/>
+		<rect x="37.5" y="70.5" width="10.9" height="10.9"/>
+		<rect x="53.9" y="47" width="10.9" height="10.9"/>
+		<rect x="53.9" y="62.2" width="10.9" height="10.9"/>
+		<rect x="70.2" y="40" width="10.9" height="10.9"/>
+		<rect x="70.2" y="55.3" width="10.9" height="10.9"/>
+		<rect x="70.2" y="70.5" width="10.9" height="10.9"/>
+	</g>
+</g>
+                    </svg></a>
             </div>
         </div>
     </nav>
@@ -223,25 +255,67 @@
 <footer>
     <div class="container">
         <div class="col-md-3">
-            <h3>Server Links</h3>
+            <h3>Community</h3>
             <ul>
-                <li><a href="http://mc.midgardmc.com:8123">DynMap</a></li>
-                <li><a href="rules.html">Rules</a></li>
-                <li><p>Connect: mc.midgardmc.com</p></li>
+                <li><a href="http://mc.midgardmc.com:8123" target="_blank">DynMap</a></li>
+                <li>
+                    <a href="https://docs.google.com/document/d/1EFTXAGFpxewtfJz2Z84pFjjzoqI38OAehEI4YNLtsIM/edit?usp=sharing"
+                       target="_blank">Rules</a>
+                </li>
+                <li><a data-toggle="tooltip" data-placement="right" title="Available when whitelisted.">Mumble</a></li>
+                <li><a href="zoocam.html">Zoo Cam</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h3>Guides</h3>
+            <ul>
+                <li><a href="signshop.html">Sign Shop</a> </li>
             </ul>
         </div>
         <div class="col-md-3">
             <h3>Social</h3>
-            <ul>
-                <li><a href="#">Mumble (By Request Only)</a></li>
-                <li><a href="https://twitter.com/intent/follow?&screen_name=midgardmc">Twitter</a></li>
-                <li><a href="https://www.reddit.com/r/MidgardMC/">Reddit</a></li>
-                <li><a href="https://github.com/MidgardMC">GitHub</a></li>
-            </ul>
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="https://twitter.com/intent/follow?&screen_name=midgardmc"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.facebook.com/mcmidgard"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.reddit.com/r/MidgardMC/"><i class="fa fa-reddit-square fa-3x" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://github.com/MidgardMC"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-3">
+        <div class="col-md-3" id="footer-midgard">
+            <h3></h3>
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 90.2 90.2" style="enable-background:new 0 0 90.2 90.2; width: 50px; fill: #5e5e5e" xml:space="preserve">
+                <style type="text/css">
+	.st0-2 {
+        fill: #5e5e5e;
+        width: 40px;
+
+    }
+            </style>
+        <g id="Layer_2">
+	        <g id="Layer_1-2">
+		<path class="st0-2" d="M84.6,5.6v79h-79v-79L84.6,5.6 M90.2,0H0v90.2h90.2V0z"/>
+		<rect x="37.5" y="40" width="10.9" height="10.9"/>
+		<rect x="37.5" y="55.3" width="10.9" height="10.9"/>
+		<rect x="37.5" y="70.5" width="10.9" height="10.9"/>
+		<rect x="53.9" y="47" width="10.9" height="10.9"/>
+		<rect x="53.9" y="62.2" width="10.9" height="10.9"/>
+		<rect x="70.2" y="40" width="10.9" height="10.9"/>
+		<rect x="70.2" y="55.3" width="10.9" height="10.9"/>
+		<rect x="70.2" y="70.5" width="10.9" height="10.9"/>
+	        </g>
+        </g>
+            </svg>
+            <p>Midgard is a community that is entirely volunteer run.</p>
+            <p><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> Copyright Midgard MC 2017</p>
         </div>
     </div>
     </div>
