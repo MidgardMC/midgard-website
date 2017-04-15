@@ -89,8 +89,16 @@ section h1 {
     /*letter-spacing: 3px;*/
 }
 
-
-
+.video-container {
+    position:absolute;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+}
 .content {
     margin-top: 70px;
 }
@@ -113,8 +121,11 @@ section h1 {
 }
 .navbar-default {
     background-color: #25c2f2;
+    /*background-color: transparent;*/
     color: white;
+    border-color: transparent;
 }
+
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
     color: white;
@@ -132,6 +143,18 @@ section h1 {
     margin-top: -15px;
 }
 
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #27daff;
+}
+
 #zoo-cam{
     /*color: #e00000;*/
     background-color: #e00000;
@@ -143,12 +166,47 @@ section h1 {
 }
 
 .featured-sections {
-    padding-bottom: 100px;
+    padding-bottom: 2em;
 }
 .server-feature .btn {
     width: 100%;
 }
 
+.new-feature {
+    color: white;
+    /*background-image: url(../images/header4.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+    /*height: 600px;*/
+}
+
+.new-feature h1 {
+     color: white;
+ }
+
+.new-feature h2 {
+    line-height: 40px;
+    margin-top: 0px;
+}
+
+.new-feature a {
+    /*font-family: 'latoregular';*/
+    font-size: 24px;
+    padding: 5px 80px;
+    margin-top: 20px;
+}
+
+.new-feature .btn-default {
+    background-color: rgba(0, 0, 0, 0.58);
+    /*border-color: #55f22a;*/
+    color: white;
+}
+
+.new-feature .container {
+    padding-top: 10%;
+}
 .server-feature {
     background-color: rgb(75, 75, 75);
     border: #25c2f2;
@@ -257,13 +315,8 @@ section h1 {
 }
 
 #feature-area {
-    height: 500px;
     padding-top: 0px;
-    padding-bottom: 0px;
-    /*background-image: url(../images/featureimg.png);*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    margin-bottom: 5%;
 }
 
 #carousel-midgard {
@@ -366,6 +419,17 @@ section h1 {
     .team-members img {
         margin: 0 auto;
     }
+    video {
+        display: none;
+    }
+
+
+    .new-feature {
+        background-image: url(../images/header4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
 
 }
 @media (min-width:768px) {
@@ -393,6 +457,16 @@ section h1 {
     .feature-content h2{
         font-size: 28px;
     }
+    section {
+        padding-top: 15%;
+    }
+
+    video {
+        display: block;
+    }
+    .new-feature {
+        background-image: none;
+    }
 
 }
 @media (min-width:1200px) {
@@ -402,6 +476,8 @@ section h1 {
     .feature-content h2{
         font-size: 28px;
     }
-
+    section {
+        padding-top: 12%;
+    }
 
 }
