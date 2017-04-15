@@ -428,10 +428,14 @@ section h1 {
 
 
     .new-feature {
-        /*background-image: url(../images/header4.jpg);*/
+        background-image: url(../images/header4.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top center;
+    }
+
+    video {
+        display: none;
     }
 
 }
@@ -451,7 +455,9 @@ section h1 {
     .team-members img {
         margin: 0;
     }
-
+    video {
+        display: block;
+    }
 }
 @media (min-width:992px) {
     section h1, .feature-content h1 {
