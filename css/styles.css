@@ -198,6 +198,11 @@ section h1 {
     margin-top: 20px;
 }
 
+.new-feature p {
+    font-family: 'latoregular';
+    font-size: 12px;
+}
+
 .new-feature .btn-default {
     background-color: rgba(0, 0, 0, 0.58);
     /*border-color: #55f22a;*/
@@ -419,13 +424,11 @@ section h1 {
     .team-members img {
         margin: 0 auto;
     }
-    video {
-        display: none;
-    }
+
 
 
     .new-feature {
-        background-image: url(../images/header4.jpg);
+        /*background-image: url(../images/header4.jpg);*/
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top center;
@@ -461,11 +464,8 @@ section h1 {
         padding-top: 15%;
     }
 
-    video {
-        display: block;
-    }
     .new-feature {
-        background-image: none;
+        /*background-image: none;*/
     }
 
 }
@@ -479,5 +479,7 @@ section h1 {
     section {
         padding-top: 12%;
     }
+
+
 
 }
