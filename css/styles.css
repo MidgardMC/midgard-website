@@ -46,6 +46,18 @@
     }
 }
 
+@keyframes fade-in {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
 body {
     font-family: 'latoregular';
     background-color: #ffffff;
@@ -57,9 +69,10 @@ h1, h2, h3 {
 }
 
 footer {
-    background-color: #202020;
+    background-color: #2a2a2a;
     color: #5e5e5e;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
+    margin-top: 100px;
 }
 
 footer a {
@@ -94,6 +107,11 @@ section h1 {
     height:100%;
     width:100%;
     overflow: hidden;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 .video-container video {
     min-width: 100%;
@@ -359,22 +377,6 @@ section h1 {
     height: 500px;
 }
 
-#mcimage {
-    background-image: url("../images/minecraft-server.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50%;
-    border-radius: 3px 3px 0px 0px;
-}
-
-#tf2image {
-    background-image: url("../images/tf2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50%;
-    border-radius: 3px 3px 0px 0px;
-}
-
 #team img {
     display: block;
     margin-bottom: 10px;
@@ -397,11 +399,6 @@ section h1 {
     padding: 0;
 
 }
-
-#servers h1 {
-    margin-bottom: 50px;
-}
-
 
 
 .alert{
@@ -428,10 +425,16 @@ section h1 {
 
 
     .new-feature {
-        background-image: url(../images/header4.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
+        background-color: #25c2f2;
+    }
+    
+    .mcserver{
+        /*background-image: url("../images/mcserver-bg.jpg");*/
+        /*background-position: 0px -100px;*/
+        /*background-size: cover;*/
+        /*background-repeat: no-repeat;*/
+        background-color: #25c2f2;
+        height: 300px;
     }
 
     video {
@@ -482,8 +485,19 @@ section h1 {
     .feature-content h2{
         font-size: 28px;
     }
+
     section {
         padding-top: 12%;
+    }
+
+    #feature-area h1 {
+        font-size: 72px;
+        margin-bottom: 20px;
+    }
+
+    #feature-area h2 {
+        font-family: 'montserratlight';
+        margin-bottom: 20px;
     }
 
 
