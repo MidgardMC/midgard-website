@@ -222,9 +222,13 @@ section h1 {
 }
 
 .new-feature .btn-default {
-    background-color: rgba(0, 0, 0, 0.58);
-    /*border-color: #55f22a;*/
+    background-color: #5e5e5e;
+    border-color: transparent;
     color: white;
+}
+
+.new-feature .btn-default:hover {
+    background-color: #acacac;
 }
 
 .new-feature .container {
@@ -400,6 +404,12 @@ section h1 {
 
 }
 
+#object{
+
+    margin-top: 80px;
+
+}
+
 
 .alert{
     margin-bottom: 0px;
@@ -437,8 +447,17 @@ section h1 {
         height: 300px;
     }
 
+
     video {
         display: none;
+    }
+
+    #object{
+
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
@@ -461,6 +480,14 @@ section h1 {
     video {
         display: block;
     }
+
+    #object{
+
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media (min-width:992px) {
     section h1, .feature-content h1 {
@@ -475,6 +502,13 @@ section h1 {
 
     .new-feature {
         /*background-image: none;*/
+    }
+
+    #object{
+
+        display: block;
+        width: auto;
+
     }
 
 }
