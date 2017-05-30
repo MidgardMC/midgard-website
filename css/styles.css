@@ -193,6 +193,7 @@ section h1 {
 .new-feature {
     color: white;
     /*background-image: url(../images/header4.jpg);*/
+    background-image: url("../images/maingif.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -435,7 +436,8 @@ section h1 {
 
 
     .new-feature {
-        background-color: #25c2f2;
+        /*background-color: #25c2f2;*/
+        background-image: url("../images/maingif.gif");
     }
     
     .mcserver{
