@@ -202,7 +202,7 @@ section h1 {
 }
 
 .new-feature h1 {
-    color: #a46aff;
+    color: #ffffff;
  }
 
 .new-feature h2 {
@@ -404,8 +404,8 @@ section h1 {
 
 
     .new-feature {
-        background-color: #cdf24b;
-        color: black;
+        background-color: #25c2f2;
+        color: white;
     }
     
     .mcserver{
