@@ -236,7 +236,9 @@ section h1 {
     padding-top: 10%;
 }
 
-
+.feat-img {
+    margin-top: 40px;
+}
 .server-feature h2 {
     margin-top: 0px;
     color: white;
