@@ -388,6 +388,8 @@ section h1 {
 
 .midgardalert {
     padding-top: 10px;
+    background-color: #ee1600;
+    color: white;
 }
 
 @media (min-width:300px) {
