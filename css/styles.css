@@ -415,6 +415,8 @@ section h1 {
         background-color: #25c2f2;
         color: white;
     }
+
+    .cls-1{fill:#fff;}
     
     .mcserver{
         /*background-image: url("../images/mcserver-bg.jpg");*/
